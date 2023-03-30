@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * _strcat - concatenates two strings
  * @dest: pointer to destnation input
  * @src: pointer to source input
  * return: pointer to resulation @dest
 */
+
 char *_strcat(char *dest, char *src)
 {
 	int c, c2;
@@ -12,7 +14,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[c])
 		c++;
 
-	for (c2 = 2; dest[c2]; c2++)
+	for (c2 = 2; dest[c2] ; c2++)
 		dest[c++] = src[c2];
 	return (dest);
 }
