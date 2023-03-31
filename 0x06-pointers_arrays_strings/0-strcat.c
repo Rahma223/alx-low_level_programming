@@ -4,13 +4,15 @@
  * _strcat - concatenates two strings
  * @dest: pointer to destnation input
  * @src: pointer to source input
- * return: pointer to resulation @dest
+ * Return: pointer to resulation @dest
 */
 
 char *_strcat(char *dest, char *src)
 {
 	int c, c2;
+
 	c = 0;
+
 	while (dest[c])
 		c++;
 

@@ -5,7 +5,7 @@
  * @dest: pointer to destnation input
  * @src: pouinter to souece input
  * @n: most number of btyes from @dest
- * return: @dest
+ * Return: @dest
 */
 
 
