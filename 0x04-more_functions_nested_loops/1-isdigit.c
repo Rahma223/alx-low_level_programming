@@ -1,5 +1,11 @@
-#include " main.h"
-/* function chrck if number beetwen 0and 9 */
+#include "main.h"
+
+/**
+ * _isdigit - a function that checks for a digit (0 through 9)
+ * @c: integer to string
+ * Return: 1 if true
+ */
+
 int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
