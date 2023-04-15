@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * *_memset - fills memory with a constant byte
  * @s: pointer to put the constant
@@ -17,8 +18,6 @@ char *_memset(char *s, char b, unsigned int n)
 
 	return (ptr);
 }
-
-#include "main.h"
 
 /**
  * *_calloc - a function that allocates memory for an array, using malloc.
