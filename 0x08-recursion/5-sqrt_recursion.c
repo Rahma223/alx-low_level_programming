@@ -1,9 +1,10 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 
 /**
  * _sqrt_recursion - a function that returns the square
  * @n: number we get the root
+ * @i: iterate number
  * Return: value from function sqrt
  */
 
