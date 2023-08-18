@@ -1,8 +1,22 @@
-#!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    new_matrix = matrix.copy()
+#include "lists.h"
 
-    for i in range(len(matrix)):
-        new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
+/**
+ * print_dlistint - function that prints all the elemts of a doubly linked list
+ * @h: poiner to the head of the list
+ *
+ * Return: number of nodes
+ */
 
-    return (new_matrix)
+size_t print_dlistint(const dlistint_t *h)
+{
+	size_t count = 0;
+
+	/* while we have a pointer to the list */
+	while (h != NULL)
+	{
+		printf("%d\n", h->n);
+		count++;
+		h = h->next;
+	}
+	return (count);
+}
